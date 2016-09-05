@@ -109,7 +109,6 @@ module JSIP
       var p=c.getImageData(0,0,this.width,this.height).data;
       var s='';for(var i=0;i<p.length;i+=4)s+=String.fromCharCode(p[i]);
       (1,eval)(s);
-      //[]['filter']['constructor'](s)();
     EOF
 
     TEMPLATE = <<-EOF
